@@ -12,7 +12,7 @@ import java.util.Map;
 @RequestMapping(path = "/person")
 public class RestAPIController {
     List<Person> people = new ArrayList<>();
-    @GetMapping("/hello")
+    @GetMapping("/hai")
     public String sayHi(){
        return "hello";
     }
